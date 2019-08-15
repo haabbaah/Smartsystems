@@ -1,0 +1,175 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.s-ready {
+		-webkit-clip-path: polygon(0 0, 100% 5rem, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 5rem, 100% 100%, 0% 100%);
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.s-ready {
+		-webkit-clip-path: polygon(0 0, 100% 4rem, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 4rem, 100% 100%, 0% 100%);
+	}
+
+	.s-ready .other-service {
+		display: grid;
+		grid-template-columns: 1fr;
+		column-gap: 2rem;
+	}
+
+	.s-uds-calc .wrapper-calc {
+		margin: 1rem 20%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.wrapper-logo .logo {
+		margin: 10vw 10% 5vw;
+	}
+
+	.wrapper-logo .logo h3 img {
+		width: 3vw;
+	}
+
+	.s-ready {
+		-webkit-clip-path: polygon(0 0, 100% 3rem, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 3rem, 100% 100%, 0% 100%);
+	}
+
+	.s-ready .uds-service {
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 2rem;
+	}
+
+	.s-ready .other-service .other-item p {
+		font-size: 15px;
+	}
+
+	.s-chess .wrapper-chess .item .chess-logo {
+		height: 6rem;
+	}
+
+	.s-packages .wrapper-three {
+		margin: 2rem 0%;
+	}
+
+	.s-packages .wrapper-three .item-1 p {
+		font-size: 80%;
+	}
+
+	.back_to_top {
+		bottom: 15px;
+		right: 15px;
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+
+	.s-uds-calc .wrapper-calc .item {
+		height: 3rem;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.wrapper-logo .logo h3 img {
+		width: 4vw;
+	}
+
+	.s-ready {
+		-webkit-clip-path: polygon(0 0, 100% 2rem, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 2rem, 100% 100%, 0% 100%);
+		padding: 3rem 0 2rem;
+	}
+
+	.grid {
+		margin: 0 .8rem;
+	}
+
+	.s-ready .uds-service {
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 2rem;
+	}
+
+	.s-uds-calc .wrapper-calc {
+		flex-direction: column;
+		margin: 1rem 0;
+	}
+
+	.s-uds-calc .wrapper-calc .item {
+		width: 55%;
+		height: 4rem;
+		margin-bottom: 1rem;
+	}
+
+	.s-chess .wrapper-chess {
+		flex-direction: column;
+	}
+
+	.s-chess .wrapper-chess .item {
+		width: 100%;
+	}
+
+	.s-chess .wrapper-chess.chess-right .item-1 {
+		order: 2;
+	}
+
+	.s-chess .wrapper-chess.chess-right .item-2 {
+		order: 1;
+	}
+
+	.s-chess .wrapper-chess.chess-left .item-2 {
+		padding-left: 0rem;
+	}
+
+	.s-chess .wrapper-chess .item p {
+		margin-bottom: 3rem;
+	}
+
+	.s-packages .wrapper-three {
+		flex-direction: column;
+		margin: 2rem 3%;
+	}
+
+	.s-packages .wrapper-three .item-1 {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.s-packages .wrapper-three .item-2 {
+		width: 100%;
+		-webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+	}
+
+	.s-packages .wrapper-three .item-2 div {
+		margin: 4rem 0;
+	}
+
+	.s-packages .wrapper-three .item-1 p {
+		margin-bottom: 2rem;
+		font-size: 90%;
+	}
+
+	.back_to_top {
+		bottom: 10px;
+		right: 10px;
+		width: 2rem;
+		height: 2rem;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.s-ready {
+		-webkit-clip-path: polygon(0 0, 100% 1.5rem, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 1.5rem, 100% 100%, 0% 100%);
+	}
+}
