@@ -1,3 +1,46 @@
+let deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+	// Prevent Chrome 67 and earlier from automatically showing the prompt
+	e.preventDefault();
+	// Stash the event so it can be triggered later.
+	deferredPrompt = e;
+});
+
+async function install() {
+	if (deferredPrompt) {
+		deferredPrompt.prompt();
+		console.log(deferredPrompt)
+		deferredPrompt.userChoice.then(function (choiceResult) {
+			if (choiceResult.outcome === 'accepted') {
+				console.log('Your PWA has been installed');
+			} else {
+				console.log('User chose to not install your PWA');
+			}
+			deferredPrompt = null;
+		});
+	}
+}
+
+
+
+
+if ('serviceWorker' in navigator) {
+	window.addEventListener('load', function () {
+		navigator.serviceWorker.register('./sw.js').then(function (registration) {
+				// Registration was successful
+			},
+			function (err) {
+				// registration failed :(
+				console.log('ServiceWorker registration failed: ', err);
+			});
+	});
+}
+
+
+
+
+
 //E-mail Ajax Send
 //Documentation & Example: https://github.com/agragregra/uniMail
 /* 	$("form").submit(function () { 
@@ -42,6 +85,16 @@ year.textContent = new Date().getFullYear();
 
 
 //Кнопка вверх
+let goTopBtn = document.querySelector('.back_to_top');
+let topElement = document.querySelector('.s-head');
+
+function backToTop() {
+	topElement.scrollIntoView({
+		block: "center",
+		behavior: "smooth"
+	});
+}
+
 function trackScroll() {
 	let scrolled = window.pageYOffset;
 	let coords = document.documentElement.clientHeight;
@@ -54,27 +107,13 @@ function trackScroll() {
 	}
 }
 
-function backToTop() {
-	let scrollStep = window.pageYOffset / 40;
-	if (window.pageYOffset > 0) {
-		window.scrollBy(0, -(scrollStep));
-		setTimeout(backToTop, 0);
-	}
-}
-
-let goTopBtn = document.querySelector('.back_to_top');
-
 window.addEventListener('scroll', trackScroll);
 goTopBtn.addEventListener('click', backToTop);
 
 
 
 
-
-
 //Ленивая подгрузка картинок
-
-
 const options = {
 	rootMargin: '0px',
 	threshold: 0.1,
@@ -88,17 +127,13 @@ const handleIntersection = (entries, observer) => {
 	});
 };
 
-
 const observer = new IntersectionObserver(handleIntersection, options);
 
 const images = document.querySelectorAll('.lazy-load');
 
-
-
 images.forEach(img => {
 	observer.observe(img);
 });
-
 
 const loadImage = (image) => {
 	const src = image.dataset.src;
@@ -115,7 +150,6 @@ const fetchImage = (url) => {
 		image.onerror = reject;
 	});
 };
-
 
 if ('IntersectionObserver' in window) {
 	// Observer code
