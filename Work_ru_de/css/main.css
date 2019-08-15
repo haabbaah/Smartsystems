@@ -454,7 +454,7 @@ section {
 	padding: .5rem 1rem;
 }
 
-.s-uds-calc .wrapper-calc .item a{
+.s-uds-calc .wrapper-calc .item a {
 	display: block;
 }
 
@@ -764,14 +764,14 @@ section {
 
 
 footer {
-	background-color: var(--accent-color);
+	background-color: var(--bkg-2);
 }
 
 footer h3 {
 	font-weight: 300;
 	text-align: center;
 	padding: 2rem 0;
-	color: var(--bkg-1);
+	color: #fff;
 }
 
 
@@ -790,7 +790,7 @@ footer h3 {
 	cursor: pointer;
 	outline: none;
 	display: none;
-	border: 1px solid rgb(255, 255, 255);
+	border: none;
 }
 
 

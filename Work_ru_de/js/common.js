@@ -1,15 +1,6 @@
-$(function () {
-
-	//SVG Fallback
-	if (!Modernizr.svg) {
-		$("img[src*='svg']").attr("src", function () {
-			return $(this).attr("src").replace(".svg", ".png");
-		});
-	};
-
-	//E-mail Ajax Send
-	//Documentation & Example: https://github.com/agragregra/uniMail
-	$("form").submit(function () { //Change
+//E-mail Ajax Send
+//Documentation & Example: https://github.com/agragregra/uniMail
+/* 	$("form").submit(function () { 
 		let th = $(this);
 		$.ajax({
 			type: "POST",
@@ -24,31 +15,7 @@ $(function () {
 		});
 		return false;
 	});
-
-	//Chrome Smooth Scroll
-	try {
-		$.browserSelector();
-		if ($("html").hasClass("chrome")) {
-			$.smoothScroll();
-		}
-	} catch (err) {
-
-	};
-
-	$("img, a").on("dragstart", function (event) {
-		event.preventDefault();
-	});
-
-});
-
-
-
-$(window).load(function () {
-
-	$(".loader_inner").fadeOut();
-	$(".loader").delay(400).fadeOut("slow");
-
-});
+ */
 
 
 //Эффект наведения на кнопку
@@ -105,12 +72,69 @@ goTopBtn.addEventListener('click', backToTop);
 
 
 
+//Ленивая подгрузка картинок
+
+
+const options = {
+	rootMargin: '0px',
+	threshold: 0.1,
+};
+
+const handleIntersection = (entries, observer) => {
+	entries.forEach(entry => {
+		if (entry.intersectionRatio > 0) {
+			loadImage(entry.target);
+		}
+	});
+};
+
+
+const observer = new IntersectionObserver(handleIntersection, options);
+
+const images = document.querySelectorAll('.lazy-load');
+
+
+
+images.forEach(img => {
+	observer.observe(img);
+});
+
+
+const loadImage = (image) => {
+	const src = image.dataset.src;
+	fetchImage(src).then(() => {
+		image.src = src;
+	});
+};
+
+const fetchImage = (url) => {
+	return new Promise((resolve, reject) => {
+		const image = new Image();
+		image.src = url;
+		image.onload = resolve;
+		image.onerror = reject;
+	});
+};
+
+
+if ('IntersectionObserver' in window) {
+	// Observer code
+	const observer = new IntersectionObserver(handleIntersection, options);
+} else {
+	// IO is not supported.
+	// Just load all the images
+	Array.from(images).forEach(image => loadImage(image));
+}
 
 
 
 
 
 
+
+
+
+//Модальное окно для кнопок
 let modalButtons = document.querySelectorAll('.btn-pop-up'),
 	overlay = document.querySelector('.pop-up-overlay'),
 	blur = document.querySelector('.blur-wrapper'),
@@ -137,7 +161,7 @@ closeButtons.forEach(function (item) {
 		overlay.classList.remove('active');
 	});
 
-}); 
+});
 
 
 document.body.addEventListener('keyup', function (e) {
