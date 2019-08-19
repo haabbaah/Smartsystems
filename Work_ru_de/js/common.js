@@ -10,7 +10,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 async function install() {
 	if (deferredPrompt) {
 		deferredPrompt.prompt();
-		console.log(deferredPrompt)
+		console.log(deferredPrompt);
 		deferredPrompt.userChoice.then(function (choiceResult) {
 			if (choiceResult.outcome === 'accepted') {
 				console.log('Your PWA has been installed');
@@ -40,38 +40,17 @@ if ('serviceWorker' in navigator) {
 
 
 
-
-//E-mail Ajax Send
-//Documentation & Example: https://github.com/agragregra/uniMail
-/* 	$("form").submit(function () { 
-		let th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
-		}).done(function () {
-			alert("Thank you!");
-			setTimeout(function () {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
- */
-
-
 //Эффект наведения на кнопку
 let btn = document.querySelectorAll('.btn');
 
 function hover(el) {
 	for (let k = 0; k < el.length; k++) {
 		el[k].onmousemove = (e) => {
-			const x = e.pageX - e.target.offsetLeft
-			const y = e.pageY - e.target.offsetTop
+			const x = e.pageX - e.target.offsetLeft;
+			const y = e.pageY - e.target.offsetTop;
 			e.target.style.setProperty('--x', `${ x }px`);
 			e.target.style.setProperty('--y', `${ y }px`);
-		}
+		};
 	}
 }
 
@@ -172,7 +151,7 @@ if ('IntersectionObserver' in window) {
 let modalButtons = document.querySelectorAll('.btn-pop-up'),
 	overlay = document.querySelector('.pop-up-overlay'),
 	blur = document.querySelector('.blur-wrapper'),
-	closeButtons = document.querySelectorAll('.js-modal-close');
+	closeButton = document.querySelector('.close-mail');
 
 
 modalButtons.forEach(function (item) {
@@ -187,14 +166,8 @@ modalButtons.forEach(function (item) {
 });
 
 
-closeButtons.forEach(function (item) {
-	item.addEventListener('click', function (e) {
-		let parentModal = this.closest('.pop-up');
-
-		parentModal.classList.remove('active');
-		overlay.classList.remove('active');
-	});
-
+closeButton.addEventListener('click', function (e) {
+	closeModalMail();
 });
 
 
@@ -202,12 +175,16 @@ document.body.addEventListener('keyup', function (e) {
 	let key = e.keyCode;
 
 	if (key == 27) {
-
-		document.querySelector('.pop-up.active').classList.remove('active');
-		document.querySelector('.pop-up-overlay').classList.remove('active');
-		blur.classList.remove('blur');
-	};
+		closeModalMail();
+	}
 }, false);
+
+
+function closeModalMail() {
+	document.querySelector('.pop-up.active').classList.remove('active');
+	document.querySelector('.pop-up-overlay').classList.remove('active');
+	blur.classList.remove('blur');
+}
 
 
 overlay.addEventListener('click', function () {

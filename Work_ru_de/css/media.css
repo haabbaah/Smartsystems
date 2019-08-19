@@ -21,9 +21,6 @@
 		column-gap: 2rem;
 	}
 
-	.s-uds-calc .wrapper-calc {
-		margin: 1rem 20%;
-	}
 }
 
 /* Small Devices, Tablets */
@@ -99,12 +96,11 @@
 	.s-uds-calc .wrapper-calc {
 		flex-direction: column;
 		margin: 1rem 0;
+		margin-bottom: 3rem;
 	}
 
 	.s-uds-calc .wrapper-calc .item {
-		width: 55%;
-		height: 4rem;
-		margin-bottom: 1rem;
+		height: 3.2rem;
 	}
 
 	.s-chess .wrapper-chess {

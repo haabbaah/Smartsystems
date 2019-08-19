@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /fonts
+Disallow: /css
+Disallow: /js
+Disallow: /libs
+Disallow: /other
+Disallow: /img
+Disallow: /privacy_policy

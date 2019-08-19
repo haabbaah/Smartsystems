@@ -38,6 +38,8 @@
 
 	<script src="libs/modernizr/modernizr.js"></script>
 
+	<meta name="yandex-verification" content="6e5030dcd196b2f0" />
+	
 </head>
 
 <body>
