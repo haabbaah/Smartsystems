@@ -147,11 +147,21 @@ if ('IntersectionObserver' in window) {
 
 
 
+
+
+
 //Модальное окно для кнопок
 let modalButtons = document.querySelectorAll('.btn-pop-up'),
 	overlay = document.querySelector('.pop-up-overlay'),
 	blur = document.querySelector('.blur-wrapper'),
 	closeButton = document.querySelector('.close-mail');
+	buttonMail = document.querySelector('.s-questions btn');
+
+
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(!navigator.userAgent)) {
+	buttonMail.classList.remove('btn-pop-up');
+} 
 
 
 modalButtons.forEach(function (item) {

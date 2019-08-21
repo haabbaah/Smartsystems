@@ -39,7 +39,7 @@
 	<script src="libs/modernizr/modernizr.js"></script>
 
 	<meta name="yandex-verification" content="6e5030dcd196b2f0" />
-	
+
 </head>
 
 <body>
@@ -60,6 +60,109 @@
 				</div>
 			</div>
 		</section>
+
+
+
+		<section class="s-uds-calc">
+			<div class="grid">
+				<h2 class="zag">
+					UDS Marketing Calculator
+				</h2>
+				<p>
+					Приложение для iOS и Android
+				</p>
+				<img class="calc-img lazy-load" src="img/small-img/uds-calc/calc-small.png" alt=""
+					data-src="img/uds-calc/calc.png">
+				<p>
+					Калькулятор позволяет рассчитать размер средней скидки UDS и рентабельность бонусной программы при
+					различных настройках маркетинга и финансовых показателях бизнеса.
+				</p>
+				<div class="wrapper-calc">
+					<div class="item app-store">
+						<a href="https://itunes.apple.com/app/uds-game-marketing-calculator/id1291416430" target="_blank"
+							aria-label="app-store" rel="noopener">
+							<img src="img/uds-calc/appstore-button.svg" alt="app-store">
+						</a>
+					</div>
+					<div class="item google-play">
+						<a href="https://play.google.com/store/apps/details?id=systems.smart.udscalc2" target="_blank"
+							aria-label="google-play" rel="noopener">
+							<img src="img/uds-calc/googleplay-button.svg" alt="google-play">
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<section class="s-uds-calc s-uds-profit-calc">
+			<div class="grid">
+				<h2 class="zag">
+					UDS Profit Calculator
+				</h2>
+				<p>
+					Приложение для iOS
+				</p>
+				<img class="calc-img lazy-load" src="img/small-img/uds-calc/profit-calc.png" alt=""
+					data-src="img/uds-calc/profit-calc.png">
+				<p>
+					UDS Profit Calculator позволяет эффективно рассчитать общую выгоду от внедрения бонусной программы UDS. В
+					расчете
+					учитывается снижение затрат на традиционные маркетинговые инструменты, получение обратной связи от клиентов и
+					мониторинг качества работы персонала.
+				</p>
+				<div class="wrapper-calc">
+					<div class="item app-store">
+						<a href="https://apps.apple.com/app/id1470223033" target="_blank" aria-label="app-store" rel="noopener">
+							<img src="img/uds-calc/appstore-button.svg" alt="app-store">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="s-uds-calc s-uds-gis-calc">
+			<div class="grid">
+				<h2 class="zag">
+					GIS University
+				</h2>
+				<p>
+					Корпоративно-образовательная платформа
+				</p>
+				<img class="calc-img lazy-load" src="img/small-img/uds-calc/gis.png" alt="" data-src="img/uds-calc/gis.png">
+				<p>
+					Образовательная платформа для партнеров Global Intellect Service и клиентов UDS. Онлайн-университет регулярно
+					пополняется интересными и информативными курсами от партнеров GIS по работе с продуктом, развитию бизнеса и
+					личностному росту.
+				</p>
+				<div class="wrapper-calc">
+					<div class="item app-store">
+						<a href="https://apps.apple.com/app/id1411408402" target="_blank" aria-label="app-store" rel="noopener">
+							<img src="img/uds-calc/appstore-button.svg" alt="app-store">
+						</a>
+					</div>
+					<div class="item google-play">
+						<a href="https://play.google.com/store/apps/details?id=smart.systems.gisuni" target="_blank"
+							aria-label="google-play" rel="noopener">
+							<img src="img/uds-calc/googleplay-button.svg" alt="google-play">
+						</a>
+					</div>
+					<div class="item web-site">
+						<a href="https://gis.university/" target="_blank" aria-label="web-site" rel="noopener">
+							<h4>
+								WEB-версия
+							</h4>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+
 
 		<section class="s-ready">
 			<div class="grid">
@@ -179,70 +282,11 @@
 						</h4>
 					</div>
 				</div>
-				<h2 class="zag-2">
-					Также в разработке:
-				</h2>
-
-				<div class="uds-service">
-					<div class="uds-item">
-						<img src="img/small-img/uds/10.png" class="lazy-load" alt="" data-src="img/uds/10.png">
-						<h4>
-							Штрих-М
-						</h4>
-					</div>
-					<div class="uds-item">
-						<img src="img/small-img/uds/11.png" class="lazy-load" alt="" data-src="img/uds/11.png">
-						<h4>
-							Фронтол
-						</h4>
-					</div>
-					<div class="uds-item">
-						<img src="img/small-img/uds/12.png" class="lazy-load" alt="" data-src="img/uds/12.png">
-						<h4>
-							Битрикс
-						</h4>
-					</div>
-					<div class="uds-item">
-						<img src="img/small-img/uds/13.png" class="lazy-load" alt="" data-src="img/uds/13.png">
-						<h4>
-							Далион: Автобизнес
-						</h4>
-					</div>
-				</div>
 
 			</div>
 		</section>
 
 
-
-		<section class="s-uds-calc">
-			<div class="grid">
-				<h2 class="zag">
-					UDS Marketing Calculator
-				</h2>
-				<p>
-					Приложение для iOS и Android
-				</p>
-				<img class="calc-img lazy-load" src="img/small-img/uds-calc/calc-small.png" alt=""
-					data-src="img/uds-calc/calc.png">
-				<p>
-					Калькулятор позволяет рассчитать размер средней скидки UDS и рентабельность бонусной программы при
-					различных настройках маркетинга и финансовых показателях бизнеса.
-				</p>
-				<div class="wrapper-calc">
-					<div class="item app-store">
-						<a href="https://itunes.apple.com/app/uds-game-marketing-calculator/id1291416430" target="_blank" aria-label="app-store" rel="noopener">
-							<img src="img/uds-calc/appstore-button.svg" alt="app-store">
-						</a>
-					</div>
-					<div class="item google-play">
-						<a href="https://play.google.com/store/apps/details?id=systems.smart.udscalc2" target="_blank" aria-label="google-play" rel="noopener">
-							<img src="img/uds-calc/googleplay-button.svg" alt="google-play">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
 
 		<section class="s-content-creation">
 			<div class="grid">
@@ -260,13 +304,13 @@
 		<section class="s-questions">
 			<div class="grid">
 				<h2 class="zag">
-					Остались вопросы?
+					Связаться с нами
 				</h2>
-				<p>
+				<!-- 		<p>
 					связаться с нами:
 				</p>
 				<a href="mailto:info@sm-art.systems">info@sm-art.systems</a>
-
+ -->
 				<a target="_blank" href="mailto:info@sm-art.systems">
 					<button class="btn" aria-label="Mail" data-modal="1">
 						<span><img src="img/mail.png" alt="Mail"></span>
@@ -293,20 +337,72 @@
 	</div>
 
 	<div class="pop-up" data-modal="1">
-		<form action="" class="send-mail" method="post">
-			<h3>Заявка на внедрение, сопровождение и интеграцию UDS Game</h3>
-			<input type="submit" name="submit" class="button" id="submit_btn" value="Отправить" />
+		<div class="close-mail">✖</div>
+		<form action class="send-mail" method="post">
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="sm-art.systems">
+			<input type="hidden" name="admin_email" value="ilplank@yandex.ru">
+			<input type="hidden" name="form_subject" value="Сообщение">
+			<!-- END Hidden Required Fields -->
+
+			<label for="name">Введите ваше имя*</label>
+			<input type="text" id="name" name="Name" placeholder="Ваше имя" required><br>
+
+			<label for="mail">Введите E-mail*</label>
+			<input type="text" id="mail" name="E-mail" placeholder="Ваш E-mail" required><br>
+
+			<label for="message">Введите текст сообщения*</label>
+			<textarea name="Message" id="message" cols="30" rows="10" placeholder="Сообщение" required></textarea>
+			<!-- <input type="text" id="message" name="Text" placeholder="Сообщение"><br> -->
+
+			<button class="button" id="submit_btn">Отправить</button>
 		</form>
+
+		<div class="mail-sended d-n">
+			<p>
+				Письмо отправлено <span>&#10004;</span>
+			</p>
+		</div>
 	</div>
 
 	<div class="pop-up-overlay"></div>
 
 
-
+	<script src="libs/jquery.min.js"></script>
 	<script src="libs/sw-toolbox.js"></script>
 	<script src="libs/intersection-observer.js"></script>
 	<script src="libs/smoothscroll.js"></script>
 	<script src="js/common.js"></script>
+
+
+	<script>
+		//E-mail Ajax Send
+		//Documentation & Example: https://github.com/agragregra/uniMail
+		$("form").submit(function () {
+			let th = $(this);
+			$.ajax({
+				type: "POST",
+				url: "smartmail.php", //Change
+				data: th.serialize()
+			}).done(function () {
+				setTimeout(function () {
+					mailSended();
+					th.trigger("reset");
+				}, 1000);
+			});
+			return false;
+		});
+
+		function mailSended() {
+			document.querySelector('.mail-sended').classList.remove('d-n');
+			setTimeout(() => {
+				document.querySelector('.pop-up.active').classList.remove('active');
+				document.querySelector('.pop-up-overlay').classList.remove('active');
+				blur.classList.remove('blur');
+				document.querySelector('.mail-sended').classList.add('d-n');
+			}, 4000);
+		}
+	</script>
 
 </body>
 

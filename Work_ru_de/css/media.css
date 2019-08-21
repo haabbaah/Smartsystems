@@ -66,8 +66,22 @@
 		height: 2.5rem;
 	}
 
-	.s-uds-calc .wrapper-calc .item {
+	.products .wrapper-calc .item {
 		height: 3rem;
+	}
+
+	.products .products-wrapper {
+		flex-direction: column;
+	}
+
+	.products .item-1 {
+		order: 0;
+		width: 100%;
+	}
+
+	.products .item-2 {
+		order: 1;
+		width: 100%;
 	}
 
 }
@@ -93,13 +107,13 @@
 		column-gap: 2rem;
 	}
 
-	.s-uds-calc .wrapper-calc {
+	.products .wrapper-calc {
 		flex-direction: column;
 		margin: 1rem 0;
 		margin-bottom: 3rem;
 	}
 
-	.s-uds-calc .wrapper-calc .item {
+	.products .wrapper-calc .item {
 		height: 3.2rem;
 	}
 

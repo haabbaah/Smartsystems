@@ -415,7 +415,7 @@ section {
 }
 
 
-.s-uds-calc {
+.products {
 	background-color: var(--bkg-2);
 	color: #fff;
 }
@@ -428,19 +428,32 @@ section {
 	padding-bottom: 6rem;
 }
 
-.s-uds-calc .calc-img {
+
+.products .products-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.products .item {
+	width: 50%;
+}
+
+
+
+
+.products .calc-img {
 	width: 8rem;
 	margin: 0 auto;
 }
 
-.s-uds-calc p {
+.products .item-1 p {
 	font-weight: 400;
 	color: #8C8C8C;
 	text-align: center;
 	margin: 1rem 10%;
 }
 
-.s-uds-calc .wrapper-calc {
+.products .item-1 .wrapper-calc {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -449,11 +462,11 @@ section {
 	margin-bottom: 5rem;
 }
 
-.s-uds-calc .wrapper-calc:last-child {
+.products .item-1 .wrapper-calc:last-child {
 	margin-bottom: 1rem;
 }
 
-.s-uds-calc .wrapper-calc .item {
+.products .item-1 .wrapper-calc .item {
 	display: flex;
 	align-items: center;
 	width: 9rem;
@@ -463,12 +476,12 @@ section {
 	border-radius: .5rem;
 }
 
-/* .s-uds-calc .wrapper-calc .item.google-play {
+/* .products .wrapper-calc .item.google-play {
 	padding: .5rem 1rem;
 }
  */
 
-.s-uds-calc .wrapper-calc .item a {
+.products .item-1 .wrapper-calc .item a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -477,20 +490,20 @@ section {
 	cursor: pointer;
 }
 
-.s-uds-calc .wrapper-calc .item.google-play a {
+.products .item-1 .wrapper-calc .item.google-play a {
 	padding: .5rem 1rem;
 }
 
-.s-uds-calc .wrapper-calc .item svg {
+.products .item-1 .wrapper-calc .item svg {
 	width: 100%;
 	height: auto;
 }
 
-.s-uds-calc .wrapper-calc .item.web-site {
+.products .item-1 .wrapper-calc .item.web-site {
 	color: #fff;
 }
 
-.s-uds-calc .wrapper-calc .item.web-site h4 {
+.products .item-1 .wrapper-calc .item.web-site h4 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -501,7 +514,7 @@ section {
 
 
 
-/* .s-uds-calc .wrapper-calc .item img {
+/* .products .wrapper-calc .item img {
 	padding: .5rem;
 } */
 
