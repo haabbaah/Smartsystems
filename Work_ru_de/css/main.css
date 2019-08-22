@@ -420,7 +420,13 @@ section {
 	color: #fff;
 }
 
-.s-uds-profit-calc {
+.s-uds-marketing-calc {
+	background-color: var(--bkg-1);
+}
+
+.s-uds-profit-calc {}
+
+.s-uds-gis-jornal {
 	background-color: var(--bkg-1);
 }
 

@@ -63,101 +63,129 @@
 
 
 
-		<section class="s-uds-calc">
+		<section class="products">
 			<div class="grid">
-				<h2 class="zag">
-					UDS Marketing Calculator
-				</h2>
-				<p>
-					Приложение для iOS и Android
-				</p>
-				<img class="calc-img lazy-load" src="img/small-img/uds-calc/calc-small.png" alt=""
-					data-src="img/uds-calc/calc.png">
-				<p>
-					Калькулятор позволяет рассчитать размер средней скидки UDS и рентабельность бонусной программы при
-					различных настройках маркетинга и финансовых показателях бизнеса.
-				</p>
-				<div class="wrapper-calc">
-					<div class="item app-store">
-						<a href="https://itunes.apple.com/app/uds-game-marketing-calculator/id1291416430" target="_blank"
-							aria-label="app-store" rel="noopener">
-							<img src="img/uds-calc/appstore-button.svg" alt="app-store">
-						</a>
+				<div class="products-wrapper">
+					<div class="item item-1">
+						<h2 class="zag">
+							UDS Marketing Calculator
+						</h2>
+						<p>
+							Приложение для iOS и Android
+						</p>
+						<img class="calc-img lazy-load" src="img/small-img/uds-calc/calc-small.png" alt=""
+							data-src="img/uds-calc/calc.png">
+						<p>
+							Калькулятор позволяет рассчитать размер средней скидки UDS и рентабельность бонусной программы при
+							различных настройках маркетинга и финансовых показателях бизнеса.
+						</p>
+						<div class="wrapper-calc">
+							<div class="item app-store">
+								<a href="https://itunes.apple.com/app/uds-game-marketing-calculator/id1291416430" target="_blank"
+									aria-label="app-store" rel="noopener">
+									<img src="img/uds-calc/appstore-button.svg" alt="app-store">
+								</a>
+							</div>
+							<div class="item google-play">
+								<a href="https://play.google.com/store/apps/details?id=systems.smart.udscalc2" target="_blank"
+									aria-label="google-play" rel="noopener">
+									<img src="img/uds-calc/googleplay-button.svg" alt="google-play">
+								</a>
+							</div>
+						</div>
 					</div>
-					<div class="item google-play">
-						<a href="https://play.google.com/store/apps/details?id=systems.smart.udscalc2" target="_blank"
-							aria-label="google-play" rel="noopener">
-							<img src="img/uds-calc/googleplay-button.svg" alt="google-play">
-						</a>
-					</div>
-				</div>
-
-			</div>
-		</section>
-
-
-		<section class="s-uds-calc s-uds-profit-calc">
-			<div class="grid">
-				<h2 class="zag">
-					UDS Profit Calculator
-				</h2>
-				<p>
-					Приложение для iOS
-				</p>
-				<img class="calc-img lazy-load" src="img/small-img/uds-calc/profit-calc.png" alt=""
-					data-src="img/uds-calc/profit-calc.png">
-				<p>
-					UDS Profit Calculator позволяет эффективно рассчитать общую выгоду от внедрения бонусной программы UDS. В
-					расчете
-					учитывается снижение затрат на традиционные маркетинговые инструменты, получение обратной связи от клиентов и
-					мониторинг качества работы персонала.
-				</p>
-				<div class="wrapper-calc">
-					<div class="item app-store">
-						<a href="https://apps.apple.com/app/id1470223033" target="_blank" aria-label="app-store" rel="noopener">
-							<img src="img/uds-calc/appstore-button.svg" alt="app-store">
-						</a>
+					<div class="item item-2">
+						<img class="lazy-load" src="img/small-img/uds-calc/marketcalc-phone.png" alt=""
+							data-src="img/uds-calc/marketcalc-phone.png">
 					</div>
 				</div>
 			</div>
 		</section>
 
 
-		<section class="s-uds-calc s-uds-gis-calc">
+		<section class="products s-uds-profit-calc">
 			<div class="grid">
-				<h2 class="zag">
-					GIS University
-				</h2>
-				<p>
-					Корпоративно-образовательная платформа
-				</p>
-				<img class="calc-img lazy-load" src="img/small-img/uds-calc/gis.png" alt="" data-src="img/uds-calc/gis.png">
-				<p>
-					Образовательная платформа для партнеров Global Intellect Service и клиентов UDS. Онлайн-университет регулярно
-					пополняется интересными и информативными курсами от партнеров GIS по работе с продуктом, развитию бизнеса и
-					личностному росту.
-				</p>
-				<div class="wrapper-calc">
-					<div class="item app-store">
-						<a href="https://apps.apple.com/app/id1411408402" target="_blank" aria-label="app-store" rel="noopener">
-							<img src="img/uds-calc/appstore-button.svg" alt="app-store">
-						</a>
+				<div class="products-wrapper">
+					<div class="item item-2">
+						<img class="lazy-load" src="img/small-img/uds-calc/profitcalc-phone.png" alt=""
+							data-src="img/uds-calc/profitcalc-phone.png">
 					</div>
-					<div class="item google-play">
-						<a href="https://play.google.com/store/apps/details?id=smart.systems.gisuni" target="_blank"
-							aria-label="google-play" rel="noopener">
-							<img src="img/uds-calc/googleplay-button.svg" alt="google-play">
-						</a>
-					</div>
-					<div class="item web-site">
-						<a href="https://gis.university/" target="_blank" aria-label="web-site" rel="noopener">
-							<h4>
-								WEB-версия
-							</h4>
-						</a>
+					<div class="item item-1">
+						<h2 class="zag">
+							UDS Profit Calculator
+						</h2>
+						<p>
+							Приложение для iOS
+						</p>
+						<img class="calc-img lazy-load" src="img/small-img/uds-calc/profit-calc.png" alt=""
+							data-src="img/uds-calc/profit-calc.png">
+						<p>
+							UDS Profit Calculator позволяет эффективно рассчитать общую выгоду от внедрения бонусной программы UDS. В
+							расчете
+							учитывается снижение затрат на традиционные маркетинговые инструменты, получение обратной связи от
+							клиентов
+							и
+							мониторинг качества работы персонала.
+						</p>
+						<div class="wrapper-calc">
+							<div class="item app-store">
+								<a href="https://apps.apple.com/app/id1470223033" target="_blank" aria-label="app-store" rel="noopener">
+									<img src="img/uds-calc/appstore-button.svg" alt="app-store">
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
+			</div>
+		</section>
 
+
+		<section class="products s-uds-gis-calc">
+			<div class="grid">
+				<div class="products-wrapper">
+					<div class="item item-1">
+						<h2 class="zag">
+							GIS University
+						</h2>
+						<p>
+							Корпоративно-образовательная платформа
+						</p>
+						<img class="calc-img lazy-load" src="img/small-img/uds-calc/gis.png" alt="" data-src="img/uds-calc/gis.png">
+						<p>
+							GIS Journal - корпоративный журнал для партнеров GIS, клиентов UDS и предпринимателей. На страницах
+							журнала
+							можно
+							найти обзоры инструментов повышения лояльности клиентов, получить эксклюзивные советы по улучшению личной
+							эффективности и узнать экспертное мнение владельцев крупнейших компаний о продукте, ситуации на рынке и
+							развитии
+							бизнеса.
+						</p>
+						<div class="wrapper-calc">
+							<div class="item app-store">
+								<a href="https://apps.apple.com/app/id1411408402" target="_blank" aria-label="app-store" rel="noopener">
+									<img src="img/uds-calc/appstore-button.svg" alt="app-store">
+								</a>
+							</div>
+							<div class="item google-play">
+								<a href="https://play.google.com/store/apps/details?id=smart.systems.gisuni" target="_blank"
+									aria-label="google-play" rel="noopener">
+									<img src="img/uds-calc/googleplay-button.svg" alt="google-play">
+								</a>
+							</div>
+							<div class="item web-site">
+								<a href="https://gis.university/" target="_blank" aria-label="web-site" rel="noopener">
+									<h4>
+										WEB-версия
+									</h4>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="item item-2">
+						<img class="lazy-load" src="img/small-img/uds-calc/gis-phone.png" alt=""
+							data-src="img/uds-calc/gis-phone.png">
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -287,20 +315,6 @@
 		</section>
 
 
-
-		<section class="s-content-creation">
-			<div class="grid">
-				<h2 class="zag">
-					Создание контента
-				</h2>
-				<div class="video-youtube">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/Z5sx2VKkieU" frameborder="0"
-						title="Create content" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-			</div>
-		</section>
-
 		<section class="s-questions">
 			<div class="grid">
 				<h2 class="zag">
@@ -312,7 +326,7 @@
 				<a href="mailto:info@sm-art.systems">info@sm-art.systems</a>
  -->
 				<a target="_blank" href="mailto:info@sm-art.systems">
-					<button class="btn" aria-label="Mail" data-modal="1">
+					<button class="btn btn-pop-up" aria-label="Mail" data-modal="1">
 						<span><img src="img/mail.png" alt="Mail"></span>
 					</button>
 				</a>
@@ -376,13 +390,11 @@
 
 
 	<script>
-		//E-mail Ajax Send
-		//Documentation & Example: https://github.com/agragregra/uniMail
 		$("form").submit(function () {
 			let th = $(this);
 			$.ajax({
 				type: "POST",
-				url: "smartmail.php", //Change
+				url: "smartmail.php",
 				data: th.serialize()
 			}).done(function () {
 				setTimeout(function () {
