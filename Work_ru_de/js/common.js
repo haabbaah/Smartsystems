@@ -93,7 +93,7 @@ goTopBtn.addEventListener('click', backToTop);
 
 
 //Ленивая подгрузка картинок
-const options = {
+/* const options = {
 	rootMargin: '0px',
 	threshold: 0.1,
 };
@@ -131,16 +131,13 @@ const fetchImage = (url) => {
 };
 
 if ('IntersectionObserver' in window) {
-	// Observer code
 	const observer = new IntersectionObserver(handleIntersection, options);
 } else {
-	// IO is not supported.
-	// Just load all the images
 	Array.from(images).forEach(image => loadImage(image));
 }
 
 
-
+ */
 
 
 
